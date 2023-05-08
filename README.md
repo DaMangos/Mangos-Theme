@@ -13,3 +13,6 @@ numbers     |   #a89df7  |   purple
 strings     |   #fe8170  |   red
 types       |   #4eb0cb  |   blue
 variable    |   #e3e3e3  |   white
+
+
+
