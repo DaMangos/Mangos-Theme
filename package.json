@@ -1,0 +1,27 @@
+{
+  "name": "Mangos-Theme",
+  "displayName": "Mangos Theme",
+  "description": "Mangos Theme",
+  "version": "0.0.1",
+  "publisher": "DaMangos",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "mangos",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mangos Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mangos Theme-color-theme.json"
+      }
+    ]
+  }
+}
