@@ -1,17 +1,19 @@
 # Mangos Theme 
 
-### simple theme for C++, C and Python
+### Simple Theme for C++, C and Python
 
-This theme was designed with simplicity in mind and was partly inspired by Xcode. There are only 8 main colours dictated this theme, and each colour has only one meaning. That means all keywords, all functions (methods, free floating functions ect), and all types (classes, structs, typedefs, namespaces ect) would be there own easily differentiable colour.
+This Xcode inspired theme was designed with for C/C++ and python. There are only high contrasting 8 colours used to highlight syntax, allowing for quick word association.
 
+### Colour Meanings
+- Blue      : classes, structs, namespaces, concepts, etc.
+- Green     : functions and methods
+- Grey      : comments
+- red       : string literals
+- purple    : numbers
+- orange    : preprocessor macros
+- pink      : language keywords
+
+### C++ Preview
 ![preview](images/preview.png)
 
-- `#2c3038` background
-- `#a3b0bf` comments
-- `#a6d67f` functions
-- `#fe7bb2` keywords
-- `#ffa150` macros
-- `#a89df7` numbers
-- `#fe8170` strings
-- `#4eb0cb` types
-- `#e3e3e3` variable
+Hope you enjoy!

@@ -8,7 +8,7 @@
   "engines": {
     "vscode": "^1.78.0"
   },
-  "icon": "https://github.com/DaMangos/Mangos-Theme/blob/main/images/icon.jpeg",
+  "icon": "images/icon.jpeg",
   "categories": [
     "Themes"
   ],
