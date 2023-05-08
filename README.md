@@ -2,18 +2,17 @@
 
 ### Simple Theme for C++, C and Python
 
-This Xcode inspired theme was designed with for C/C++ and python. There are only high contrasting 8 colours used to highlight syntax, allowing for quick word association.
+An Xcode-inspired theme designed for C++ and Python. 
 
-### Colour Meanings
-- Blue      : classes, structs, namespaces, concepts, etc.
-- Green     : functions and methods
-- Grey      : comments
-- red       : string literals
-- purple    : numbers
-- orange    : preprocessor macros
-- pink      : language keywords
+### Colour Have Meaning
+- `#4eb0cb` Blue: classes, structs, namespaces, concepts, etc.
+- `#a6d67f` Green: functions and methods
+- `#a3b0bf` Grey: comments
+- `#fe8170` red: string literals
+- `#a89df7` purple: numbers
+- `#ffa150` orange: preprocessor macros
+- `#fe7bb2` pink: language keywords
+- `#e3e3e3` while: other
 
 ### C++ Preview
 ![preview](images/preview.png)
-
-Hope you enjoy!
