@@ -110,6 +110,17 @@
             }
         },
         {
+            "name": "attributes",
+            "scope": [
+                "entity.other.attribute.",
+                "punctuation.section.attribute."
+            ],
+            "settings": {
+                "foreground": "#ffa150",
+                "fontStyle": ""
+            }
+        },
+        {
             "name": "numbers",
             "scope": [
                 "constant.numeric.",

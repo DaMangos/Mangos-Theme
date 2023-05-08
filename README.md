@@ -1,6 +1,6 @@
 # Mangos Theme 
 
-### Simple Theme for C++, C and Python
+### Simple Theme for C++ and Python
 
 An Xcode-inspired theme designed for C++ and Python. 
 
@@ -15,4 +15,4 @@ An Xcode-inspired theme designed for C++ and Python.
 - `#e3e3e3` while: other
 
 ### C++ Preview
-![preview](images/preview.png)
+![preview](images/preview_cpp.png)
