@@ -3,7 +3,7 @@
   "displayName": "Mangos Theme",
   "description": "Simple bubbly theme",
   "repository": "https://github.com/DaMangos/Mangos-Theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "DaMangos",
   "engines": {
     "vscode": "^1.78.0"
