@@ -4,7 +4,7 @@
 
 This theme was designed with simplicity in mind and was partly inspired by Xcode. There are only 8 main colours dictated this theme, and each colour has only one meaning. That means all keywords, all functions (methods, free floating functions ect), and all types (classes, structs, typedefs, namespaces ect) would be there own easily differentiable colour.
 
-![preview](/image/preview.jpeg)
+![preview](images/preview.png)
 
 - `#2c3038` background
 - `#a3b0bf` comments
