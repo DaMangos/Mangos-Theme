@@ -7,7 +7,7 @@
             "scope": [
                 "comment.",
                 "entity.name.tag",
-                "punctuation.definition.comment",
+                "punctuation.definition.comment"
             ],
             "settings": {
                 "foreground": "#a3b0bf",
@@ -20,7 +20,7 @@
                 "",
                 "keyword.operator.",
                 "meta.function-call.arguments",
-                "punctuation.",
+                "punctuation."
             ],
             "settings": {
                 "foreground": "#e3e3e3",
@@ -32,7 +32,7 @@
             "scope": [
                 "",
                 "storage.modifier.reference.cpp",
-                "storage.modifier.pointer.cpp",
+                "storage.modifier.pointer.cpp"
             ],
             "settings": {
                 "foreground": "#e3e3e3",
@@ -44,7 +44,7 @@
             "scope": [
                 "entity.name.function.",
                 "meta.function-call",
-                "support.function.",
+                "support.function."
             ],
             "settings": {
                 "foreground": "#a6d67f",
@@ -57,7 +57,7 @@
                 "constant.language.",
                 "keyword.",
                 "storage.",
-                "variable.language.",
+                "variable.language."
             ],
             "settings": {
                 "foreground": "#fe7bb2",
@@ -67,7 +67,7 @@
         {
             "name": "keywords c",
             "scope": [
-                "keyword.operator.sizeof.c",
+                "keyword.operator.sizeof.c"
             ],
             "settings": {
                 "foreground": "#fe7bb2",
@@ -78,7 +78,7 @@
             "name": "keywords cpp",
             "scope": [
                 "entity.name.operator.cpp",
-                "keyword.operator.wordlike.cpp keyword.operator.",
+                "keyword.operator.wordlike.cpp keyword.operator."
             ],
             "settings": {
                 "foreground": "#fe7bb2",
@@ -88,7 +88,7 @@
         {
             "name": "keywords py",
             "scope": [
-                "support.type.python",
+                "support.type.python"
             ],
             "settings": {
                 "foreground": "#fe7bb2",
@@ -102,7 +102,7 @@
                 "punctuation.definition.directive.",
                 "entity.name.function.preprocessor.",
                 "entity.name.other.preprocessor.",
-                "meta.preprocessor. entity.",
+                "meta.preprocessor. entity."
             ],
             "settings": {
                 "foreground": "#ffa150",
@@ -113,7 +113,7 @@
             "name": "numbers",
             "scope": [
                 "constant.numeric.",
-                "keyword.other.unit.",
+                "keyword.other.unit."
             ],
             "settings": {
                 "foreground": "#a89df7",
@@ -125,7 +125,7 @@
             "scope": [
                 "constant.",
                 "punctuation.definition.string.",
-                "string.",
+                "string."
             ],
             "settings": {
                 "foreground": "#fe8170",
@@ -136,7 +136,7 @@
             "name": "strings json",
             "scope": [
                 "punctuation.support.type.property-name.end.json",
-                "punctuation.support.type.property-name.begin.json",
+                "punctuation.support.type.property-name.begin.json"
             ],
             "settings": {
                 "foreground": "#fe8170",
@@ -146,7 +146,7 @@
         {
             "name": "types",
             "scope": [
-                "entity.",
+                "entity."
             ],
             "settings": {
                 "foreground": "#4eb0cb",
@@ -156,7 +156,7 @@
         {
             "name": "types cpp",
             "scope": [
-                "storage.type.built-in.cpp",
+                "storage.type.built-in.cpp"
             ],
             "settings": {
                 "foreground": "#4eb0cb",
