@@ -2,9 +2,9 @@
 
 ### simple theme for C++, C and Python
 
-This theme was designed with simplicity in mind and was partly inspired by Xcode. There are only 8 main colours dictated this theme, and each colour has only one meaning. That means all keywords, all funtions (methods, free floating funtions ect), and all types (classes, structs, typedefs, namespaces ect) would be there own easily differentiable colour.
+This theme was designed with simplicity in mind and was partly inspired by Xcode. There are only 8 main colours dictated this theme, and each colour has only one meaning. That means all keywords, all functions (methods, free floating functions ect), and all types (classes, structs, typedefs, namespaces ect) would be there own easily differentiable colour.
 
-![cpp preview](/preview.jpeg)
+![preview](/image/preview.jpeg)
 
 - `#2c3038` background
 - `#a3b0bf` comments

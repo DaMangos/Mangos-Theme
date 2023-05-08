@@ -1,19 +1,21 @@
 {
-  "name": "Mangos-Theme",
+  "name": "mangos_theme",
   "displayName": "Mangos Theme",
-  "description": "Mangos Theme",
-  "version": "0.0.1",
+  "description": "Simple bubbly theme",
+  "repository": "https://github.com/DaMangos/Mangos-Theme",
+  "version": "0.0.2",
   "publisher": "DaMangos",
   "engines": {
     "vscode": "^1.78.0"
   },
+  "icon": "images/icon.png",
   "categories": [
     "Themes"
   ],
   "keywords": [
     "theme",
-    "mangos",
-    "dark"
+    "xcode",
+    "dark",
   ],
   "contributes": {
     "themes": [
