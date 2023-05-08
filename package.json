@@ -1,14 +1,14 @@
 {
   "name": "mangos-theme",
   "displayName": "Mangos Theme",
-  "description": "Simple bubbly theme",
+  "description": "Dark Theme",
   "repository": "https://github.com/DaMangos/Mangos-Theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "DaMangos",
   "engines": {
     "vscode": "^1.78.0"
   },
-  "icon": "images/icon.jpeg",
+  "icon": "images/icon.png",
   "categories": [
     "Themes"
   ],

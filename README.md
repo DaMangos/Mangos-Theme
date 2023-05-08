@@ -4,14 +4,14 @@
 
 An Xcode-inspired theme designed for C++ and Python. 
 
-### Colour Have Meaning
-- `#4eb0cb` Blue: classes, structs, namespaces, concepts, etc.
-- `#a6d67f` Green: functions and methods
+### Colours Have Meaning
+- `#4eb0cb` Blue: types
+- `#a6d67f` Green: functions
 - `#a3b0bf` Grey: comments
-- `#fe8170` red: string literals
+- `#fe8170` red: strings
 - `#a89df7` purple: numbers
-- `#ffa150` orange: preprocessor macros
-- `#fe7bb2` pink: language keywords
+- `#ffa150` orange: macros
+- `#fe7bb2` pink: keywords
 - `#e3e3e3` while: other
 
 ### C++ Preview
