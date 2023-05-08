@@ -1,5 +1,5 @@
 {
-  "name": "mangos_theme",
+  "name": "mangos-theme",
   "displayName": "Mangos Theme",
   "description": "Simple bubbly theme",
   "repository": "https://github.com/DaMangos/Mangos-Theme",
@@ -8,7 +8,7 @@
   "engines": {
     "vscode": "^1.78.0"
   },
-  "icon": "images/icon.png",
+  "icon": "https://github.com/DaMangos/Mangos-Theme/blob/main/images/icon.jpeg",
   "categories": [
     "Themes"
   ],
