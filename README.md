@@ -2,6 +2,9 @@
 
 * This theme was designed with simplicity in mind and was partly inspired by Xcode.
 
+hello
+
+
 There are  
 
 background  |   #2c3038  |   grey
@@ -13,6 +16,3 @@ numbers     |   #a89df7  |   purple
 strings     |   #fe8170  |   red
 types       |   #4eb0cb  |   blue
 variable    |   #e3e3e3  |   white
-
-
-
