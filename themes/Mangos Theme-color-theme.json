@@ -3,14 +3,67 @@
     "type": "dark",
     "tokenColors": [
         {
+            "name": "attributes",
+            "scope": [
+                "entity.other.attribute.",
+                "punctuation.section.attribute."
+            ],
+            "settings": {
+                "foreground": "#ffa150",
+                "fontStyle": ""
+            }
+        },
+        {
             "name": "comments",
             "scope": [
                 "comment.",
-                "entity.name.tag",
-                "punctuation.definition.comment"
+                "comment.block.documentation. storage.",
+                "punctuation.definition.comment."
             ],
             "settings": {
                 "foreground": "#a3b0bf",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "comments c",
+            "scope": [
+                "comment.block.documentation.c storage.",
+                "comment.block.documentation.c keyword.",
+            ],
+            "settings": {
+                "foreground": "#a3b0bf",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "comments cpp",
+            "scope": [
+                "comment.block.documentation.cpp storage.",
+                "comment.block.documentation.cpp keyword.",
+            ],
+            "settings": {
+                "foreground": "#a3b0bf",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "decorator",
+            "scope": [
+                "punctuation.definition.decorator.",
+            ],
+            "settings": {
+                "foreground": "#ffa150",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "decorator",
+            "scope": [
+                "punctuation.definition.annotation.",
+            ],
+            "settings": {
+                "foreground": "#ffa150",
                 "fontStyle": ""
             }
         },
@@ -19,7 +72,6 @@
             "scope": [
                 "",
                 "keyword.operator.",
-                "meta.function-call.arguments",
                 "punctuation."
             ],
             "settings": {
@@ -30,9 +82,21 @@
         {
             "name": "default cpp",
             "scope": [
-                "",
                 "storage.modifier.reference.cpp",
                 "storage.modifier.pointer.cpp"
+            ],
+            "settings": {
+                "foreground": "#e3e3e3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "default java",
+            "scope": [
+                "keyword.control.ternary.java",
+                "storage.type.function.arrow.java",
+                "storage.type.generic.wildcard.java",
+                "variable.language.wildcard.java"
             ],
             "settings": {
                 "foreground": "#e3e3e3",
@@ -86,23 +150,13 @@
             }
         },
         {
-            "name": "keywords py",
-            "scope": [
-                "support.type.python"
-            ],
-            "settings": {
-                "foreground": "#fe7bb2",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "macros",
+            "name": "preprocessor",
             "scope": [
                 "keyword.control.directive.",
                 "punctuation.definition.directive.",
                 "entity.name.function.preprocessor.",
                 "entity.name.other.preprocessor.",
-                "meta.preprocessor. entity."
+                "meta.preprocessor."
             ],
             "settings": {
                 "foreground": "#ffa150",
@@ -110,10 +164,25 @@
             }
         },
         {
-            "name": "attributes",
+            "name": "preprocessor c",
             "scope": [
-                "entity.other.attribute.",
-                "punctuation.section.attribute."
+                "meta.preprocessor.pragma.c",
+                "meta.preprocessor.pragma.c entity.",
+                "meta.preprocessor.macro.c",
+                "meta.preprocessor.macro.c entity."
+            ],
+            "settings": {
+                "foreground": "#ffa150",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "preprocessor cpp",
+            "scope": [
+                "meta.preprocessor.pragma.cpp",
+                "meta.preprocessor.pragma.cpp entity.",
+                "meta.preprocessor.macro.cpp",
+                "meta.preprocessor.macro.cpp entity."
             ],
             "settings": {
                 "foreground": "#ffa150",
@@ -177,6 +246,34 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "annotation": {
+            "foreground": "#ffa150",
+            "fontStyle": ""
+        },
+        "builtinConstant": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
+        },
+        "class": {
+            "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "class.builtin": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
+        },
+        "class.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
+        "decorator": {
+            "foreground": "#ffa150",
+            "fontStyle": ""
+        },
+        "enum": {
+            "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
         "enumMember": {
             "foreground": "#e3e3e3",
             "fontStyle": ""
@@ -185,9 +282,21 @@
             "foreground": "#a6d67f",
             "fontStyle": ""
         },
-        "keyword": {
-            "foreground": "#fe7bb2",
+        "function.decorator": {
+            "foreground": "#ffa150",
             "fontStyle": ""
+        },
+        "interface": {
+            "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "keyword.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
+        "magicFunction": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
         },
         "macro": {
             "foreground": "#ffa150",
@@ -197,17 +306,33 @@
             "foreground": "#a6d67f",
             "fontStyle": ""
         },
+        "method.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "namespace": {
             "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "namespace.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
         "parameter": {
             "foreground": "#e3e3e3",
             "fontStyle": ""
         },
+        "parameter.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "property": {
             "foreground": "#e3e3e3",
             "fontStyle": ""
+        },
+        "selfParameter": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
         },
         "templateFunction": {
             "foreground": "#a6d67f",
@@ -218,6 +343,10 @@
             "fontStyle": ""
         },
         "type": {
+            "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "typeParameter": {
             "foreground": "#4eb0cb",
             "fontStyle": ""
         },
@@ -365,8 +494,8 @@
         "badge.foreground": "#e3e3e3",
         "terminal.foreground": "#e3e3e3",
         "terminal.selectionBackground": "#e3e3e31a",
-        "terminalCursor.background": "#e3e3e3",
-        "terminalCursor.foreground": "#292a30",
+        "terminalCursor.background": "#292a30",
+        "terminalCursor.foreground": "#e3e3e3",
         "terminal.border": "#0000001a",
         "breadcrumb.background": "#2c3038",
         "breadcrumb.foreground": "#a3b0bf",

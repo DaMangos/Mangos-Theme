@@ -1,40 +1,32 @@
-#include <string>
+#pragma once
+#include <iostream>
 
-#define PI 3.14
+#define MARCO
 
-// comment
-/* comment block */
+// 2-D vector class
 
-namespace namespace_type
+namespace maths
 {
-  template <class template_arg>
-  concept concept_type = std::same_as<template_arg, void>;
-
-  template <concept_type template_arg>
-  class class_name
-  {
+class vec2
+{
   public:
-    class_name(const template_arg &parameter)
-        : member_variable(parameter)
+    vec2(double x = 0, double y = 0)
+    : x(x),
+      y(y)
     {
-      int number = 128;
-      auto pi = PI;
-      std::string string = "string literal\n";
+      std::cout << "created a 2-D vector" << std::endl;
     }
 
-    [[nodiscard]] constexpr template_arg method() const noexcept
+    vec2 operator+(const vec2 &other) const noexcept
     {
-      auto lambda = [](int x, int y)
-      {
-        return x + y;
-      };
-
-      int num = lambda(2, 4);
+      return vec2(x + other.x, y + other.y);
     }
 
-    class_name operator+(class_name *pointer) const noexcept;
+    [[nodiscard]] constexpr double length_squared() noexcept
+    {
+      return x * x + y * y;
+    }
 
-  private:
-    template_arg member_variable
-  };
+    double x, y;
+};
 }

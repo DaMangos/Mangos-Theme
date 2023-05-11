@@ -3,5 +3,8 @@
         "origin",
         "upstream",
         "https://github.com/DaMangos/Mangos-Theme"
-    ]
+    ],
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
