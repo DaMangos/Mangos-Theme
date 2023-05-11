@@ -28,8 +28,9 @@
         {
             "name": "comments c",
             "scope": [
-                "comment.block.documentation.c storage.",
+                "comment.block.documentation.c entity.",
                 "comment.block.documentation.c keyword.",
+                "comment.block.documentation.c storage.",
             ],
             "settings": {
                 "foreground": "#a3b0bf",
@@ -39,8 +40,9 @@
         {
             "name": "comments cpp",
             "scope": [
-                "comment.block.documentation.cpp storage.",
+                "comment.block.documentation.cpp entity.",
                 "comment.block.documentation.cpp keyword.",
+                "comment.block.documentation.cpp storage.",
             ],
             "settings": {
                 "foreground": "#a3b0bf",
@@ -74,7 +76,8 @@
             "scope": [
                 "",
                 "keyword.operator.",
-                "punctuation."
+                "punctuation.",
+                "variable."
             ],
             "settings": {
                 "foreground": "#e3e3e3",
@@ -108,7 +111,8 @@
         {
             "name": "default python",
             "scope": [
-                "constant.character.format.placeholder.other.python"
+                "constant.character.format.placeholder.other.python",
+                "meta.member.access.python"
             ],
             "settings": {
                 "foreground": "#e3e3e3",
@@ -248,7 +252,9 @@
         {
             "name": "types cpp",
             "scope": [
-                "storage.type.built-in.cpp"
+                "storage.type.built-in.cpp",
+                "entity.name.function.definition.special.member.destructor.cpp",
+                "entity.name.function.definition.special.constructor.cpp"
             ],
             "settings": {
                 "foreground": "#4eb0cb",
@@ -262,9 +268,17 @@
             "foreground": "#ffa150",
             "fontStyle": ""
         },
+        "annotation.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "builtinConstant": {
             "foreground": "#fe7bb2",
             "fontStyle": "bold"
+        },
+        "builtinConstant.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
         },
         "class": {
             "foreground": "#4eb0cb",
@@ -274,7 +288,19 @@
             "foreground": "#fe7bb2",
             "fontStyle": "bold"
         },
+        "class.decorator": {
+            "foreground": "#ffa150",
+            "fontStyle": ""
+        },
         "class.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
+        "concept": {
+            "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "concept.documentation": {
             "foreground": "#a3b0bf",
             "fontStyle": ""
         },
@@ -282,12 +308,24 @@
             "foreground": "#ffa150",
             "fontStyle": ""
         },
+        "decorator.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "enum": {
             "foreground": "#4eb0cb",
             "fontStyle": ""
         },
+        "enum.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "enumMember": {
             "foreground": "#e3e3e3",
+            "fontStyle": ""
+        },
+        "enumMember.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
         "function": {
@@ -298,8 +336,16 @@
             "foreground": "#ffa150",
             "fontStyle": ""
         },
+        "function.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "interface": {
             "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "interface.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
         "keyword.documentation": {
@@ -310,8 +356,16 @@
             "foreground": "#fe7bb2",
             "fontStyle": "bold"
         },
+        "magicFunction.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "macro": {
             "foreground": "#ffa150",
+            "fontStyle": ""
+        },
+        "macro.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
         "method": {
@@ -323,6 +377,18 @@
             "fontStyle": ""
         },
         "method.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
+        "module": {
+            "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "module.decorator": {
+            "foreground": "#ffa150",
+            "fontStyle": ""
+        },
+        "module.documentation": {
             "foreground": "#a3b0bf",
             "fontStyle": ""
         },
@@ -346,28 +412,56 @@
             "foreground": "#e3e3e3",
             "fontStyle": ""
         },
+        "property.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "selfParameter": {
             "foreground": "#fe7bb2",
             "fontStyle": "bold"
         },
+        "selfParameter.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "templateFunction": {
             "foreground": "#a6d67f",
+            "fontStyle": ""
+        },
+        "templateFunction.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
         "templateType": {
             "foreground": "#4eb0cb",
             "fontStyle": ""
         },
+        "templateType.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "type": {
             "foreground": "#4eb0cb",
+            "fontStyle": ""
+        },
+        "type.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
         "typeParameter": {
             "foreground": "#4eb0cb",
             "fontStyle": ""
         },
+        "typeParameter.documentation": {
+            "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
         "variable": {
             "foreground": "#e3e3e3",
+            "fontStyle": ""
+        },
+        "variable.documentation": {
+            "foreground": "#a3b0bf",
             "fontStyle": ""
         },
     },

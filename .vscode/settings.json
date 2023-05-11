@@ -3,12 +3,5 @@
         "origin",
         "upstream",
         "https://github.com/DaMangos/Mangos-Theme"
-    ],
-    "files.associations": {
-        "ostream": "cpp"
-    },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "python.formatting.provider": "none"
+    ]
 }

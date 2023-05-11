@@ -6,13 +6,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "ClassName",
-            "request": "launch",
-            "mainClass": "ClassName",
-            "projectName": "Mangos-Theme_c1fe112b"
-        },
-        {
             "name": "Extension",
             "type": "extensionHost",
             "request": "launch",
