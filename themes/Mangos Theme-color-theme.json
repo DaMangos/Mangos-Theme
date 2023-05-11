@@ -50,6 +50,7 @@
         {
             "name": "decorator",
             "scope": [
+                "entity.name.function.decorator.",
                 "punctuation.definition.decorator.",
             ],
             "settings": {
@@ -58,8 +59,9 @@
             }
         },
         {
-            "name": "decorator",
+            "name": "annotation",
             "scope": [
+                "storage.type.annotation.",
                 "punctuation.definition.annotation.",
             ],
             "settings": {
@@ -97,6 +99,16 @@
                 "storage.type.function.arrow.java",
                 "storage.type.generic.wildcard.java",
                 "variable.language.wildcard.java"
+            ],
+            "settings": {
+                "foreground": "#e3e3e3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "default python",
+            "scope": [
+                "constant.character.format.placeholder.other.python"
             ],
             "settings": {
                 "foreground": "#e3e3e3",
@@ -304,6 +316,10 @@
         },
         "method": {
             "foreground": "#a6d67f",
+            "fontStyle": ""
+        },
+        "method.decorator": {
+            "foreground": "#ffa150",
             "fontStyle": ""
         },
         "method.documentation": {

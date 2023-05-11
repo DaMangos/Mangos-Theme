@@ -6,6 +6,6 @@ class Vec2:
 
     def __add__(self, other):
         return Vec2(self.x + other.x, self.y + other.y)
-
+    
     def length_squared(self):
         return self.x ** 2 + self.y ** 2

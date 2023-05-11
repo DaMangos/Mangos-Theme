@@ -25,7 +25,7 @@ class Vec2
     }
 
   public
-    Vec2 add(Vec2 other)
+    @Deprecated Vec2 add(Vec2 other)
     {
       return new Vec2(x + other.x, y + other.y);
     }
