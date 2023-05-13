@@ -8,6 +8,7 @@
   "engines": {
     "vscode": "^1.78.0"
   },
+  "license": "LICENSE.txt",
   "icon": "images/icon.png",
   "categories": [
     "Themes"
@@ -25,5 +26,9 @@
         "path": "./themes/Mangos Theme-color-theme.json"
       }
     ]
+  },
+  "bin": "bin",
+  "author": {
+    "name": "Oliver Horrigan-Pierre"
   }
 }

@@ -13,10 +13,10 @@
 - `#e3e3e3` white: variables, punctuation, plain-text
 
 ### C++ Preview
-![preview](images/preview_cpp.png)
+![preview](images/preview/cpp.png)
 
 ### Java Preview
-![preview](images/preview_java.png)
+![preview](images/preview/java.png)
 
 ### Python Preview
-![preview](images/preview_py.png)
+![preview](images/preview/py.png)
