@@ -3,7 +3,7 @@
   "displayName": "Mangos Theme",
   "description": "Dark Theme",
   "repository": "https://github.com/DaMangos/Mangos-Theme",
-  "version": "0.0.13",
+  "version": "0.0.64",
   "publisher": "DaMangos",
   "engines": {
     "vscode": "^1.78.0"
@@ -23,7 +23,7 @@
       {
         "label": "Mangos Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Mangos Theme-color-theme.json"
+        "path": "themes/dark.json"
       }
     ]
   },
