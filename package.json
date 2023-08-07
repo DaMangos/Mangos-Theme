@@ -3,7 +3,7 @@
   "displayName": "Mangos Theme",
   "description": "Dark Theme",
   "repository": "https://github.com/DaMangos/Mangos-Theme",
-  "version": "0.0.64",
+  "version": "0.0.65",
   "publisher": "DaMangos",
   "engines": {
     "vscode": "^1.78.0"

@@ -6,7 +6,7 @@
             "name": "blue",
             "scope": [
                 "entity.",
-                "storage.type.template.argument"
+                "storage.type.template.argument""meta.declaration.type.alias."
             ],
             "settings": {
                 "foreground": "#4eb0cb",
@@ -17,8 +17,6 @@
             "name": "blue cpp",
             "scope": [
                 "storage.type.built-in.cpp",
-                "storage.modifier.import.java",
-                "storage.modifier.package.java",
                 "entity.name.function.definition.special.member.destructor.cpp",
                 "entity.name.function.definition.special.constructor.cpp"
             ],
