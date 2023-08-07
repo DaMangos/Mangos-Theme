@@ -6,7 +6,8 @@
             "name": "blue",
             "scope": [
                 "entity.",
-                "storage.type.template.argument""meta.declaration.type.alias."
+                "storage.type.template.argument",
+                "meta.declaration.type.alias."
             ],
             "settings": {
                 "foreground": "#4eb0cb",
