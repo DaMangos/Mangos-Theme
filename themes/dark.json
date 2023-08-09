@@ -317,6 +317,7 @@
                 "punctuation.definition.parameters.end.preprocessor.cpp",
                 "punctuation.separator.parameters.cpp",
                 "variable.parameter.preprocessor.cpp",
+                "meta.template.call.cpp",
                 "meta.head.function.definition.special.constructor.cpp meta.",
                 "meta.head.function.definition.special.operator-overload.cpp meta.",
                 "meta.head.function.definition.special.constructor.cpp",
