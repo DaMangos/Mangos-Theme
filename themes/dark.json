@@ -85,9 +85,11 @@
                 "comment.block.documentation.cpp entity.",
                 "comment.block.documentation.cpp keyword.",
                 "comment.block.documentation.cpp storage.",
+                "comment.block.documentation.cpp variable.",
                 "comment.line.double-slash.documentation.cpp entity.",
                 "comment.line.double-slash.documentation.cpp keyword.",
-                "comment.line.double-slash.documentation.cpp storage."
+                "comment.line.double-slash.documentation.cpp storage.",
+                "comment.line.double-slash.documentation.cpp variable."
             ],
             "settings": {
                 "foreground": "#a3b0bf",
@@ -210,6 +212,17 @@
                 "keyword.operator.functionlike.cpp keyword.operator.",
                 "keyword.operator.wordlike.cpp keyword.operator.",
                 "keyword.operator.noexcept",
+                "storage.type.template.argument.and.cpp",
+                "storage.type.template.argument.and_eq.cpp",
+                "storage.type.template.argument.bitand.cpp",
+                "storage.type.template.argument.bitor.cpp",
+                "storage.type.template.argument.compl.cpp",
+                "storage.type.template.argument.not.cpp",
+                "storage.type.template.argument.not_eq.cpp",
+                "storage.type.template.argument.or.cpp",
+                "storage.type.template.argument.or_eq.cpp",
+                "storage.type.template.argument.xor.cpp",
+                "storage.type.template.argument.xor_eq.cpp",
                 "storage.type.template.argument.class.cpp",
                 "storage.type.template.argument.typename.cpp",
                 "storage.type.template.argument.const.cpp",
@@ -240,6 +253,8 @@
         {
             "name": "pink python",
             "scope": [
+                "variable.language.special.self.python",
+                "variable.language.special.cls.python",
                 "keyword.operator.logical.python"
             ],
             "settings": {
@@ -345,6 +360,7 @@
             "name": "white python",
             "scope": [
                 "constant.character.format.placeholder.other.python",
+                "constant.character.format.placeholder.other.python storage.type.format.python",
                 "meta.member.access.python meta.",
                 "meta.member.access.python"
             ],
@@ -415,6 +431,10 @@
         "class.documentation": {
             "foreground": "#a3b0bf",
             "fontStyle": ""
+        },
+        "clsParameter": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
         },
         "concept": {
             "foreground": "#4eb0cb",
@@ -562,6 +582,10 @@
         },
         "variable.documentation": {
             "foreground": "#a3b0bf",
+            "fontStyle": ""
+        },
+        "variable.typeHint": {
+            "foreground": "#4eb0cb",
             "fontStyle": ""
         }
     },
