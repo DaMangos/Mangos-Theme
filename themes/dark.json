@@ -212,6 +212,7 @@
                 "keyword.operator.functionlike.cpp keyword.operator.",
                 "keyword.operator.wordlike.cpp keyword.operator.",
                 "keyword.operator.noexcept",
+                "storage.type.template.argument.auto.cpp",
                 "storage.type.template.argument.and.cpp",
                 "storage.type.template.argument.and_eq.cpp",
                 "storage.type.template.argument.bitand.cpp",
