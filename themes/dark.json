@@ -289,6 +289,7 @@
         {
             "name": "red json",
             "scope": [
+                "support.type.property-name.end.json",
                 "punctuation.support.type.property-name.end.json",
                 "punctuation.support.type.property-name.begin.json"
             ],
@@ -422,6 +423,10 @@
             "fontStyle": "bold"
         },
         "class.deduced.defaultLibrary:cpp": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
+        },
+        "class.deduced:cpp": {
             "foreground": "#fe7bb2",
             "fontStyle": "bold"
         },
