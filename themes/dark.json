@@ -455,6 +455,10 @@
             "foreground": "#4eb0cb",
             "fontStyle": ""
         },
+        "enum.deduced": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
+        },
         "enum.documentation": {
             "foreground": "#a3b0bf",
             "fontStyle": ""
@@ -566,6 +570,10 @@
         "type": {
             "foreground": "#4eb0cb",
             "fontStyle": ""
+        },
+        "type.deduced.defaultLibrary": {
+            "foreground": "#fe7bb2",
+            "fontStyle": "bold"
         },
         "type.documentation": {
             "foreground": "#a3b0bf",
